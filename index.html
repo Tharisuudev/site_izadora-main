@@ -40,6 +40,17 @@
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 16px;
 	}
+	a.bookNow {
+		width: 150PX;
+		transition: 0.5s;
+		border-radius: 15px;
+	}
+
+	a.bookNow:hover {
+		
+		transform: scale(1.1);
+		transition: 0.5s;
+	}
 
 	a:link,
 	a:visited,
@@ -49,10 +60,20 @@
 	}
 
 	.headerimg {
-		background-image: url(izadora.jpeg);
-		background-position: 0 -550px;
+		background-image: url(izadora2.jpg);
+		background-position: 0 -0px;
 		background-size: cover;
 		min-height: 50%;
+	}
+
+	@media screen and (max-width: 768px) {
+		.headerimg {
+			background-image: url(izadora.jpeg);
+			background-position: 0 -0px;
+			background-size: cover;
+			min-height: 50%;
+		}
+
 	}
 
 	.parallax_bg {
@@ -390,7 +411,7 @@
 			<span class="lobster xxlarge hide-large hide-medium">Achieve Effortless Beauty</span>
 			<!-- <span class="large">Permanent Makeup Clinic in Flushing, NY</span> -->
 			<p><a href="javascript:void(0);" onclick="openWhatsApp()" target="_blank"
-					class="button white padding-large large margin-top ">Book Now</a></p>
+					class="button white padding-large large margin-top bookNow">Book Now</a></p>
 		</div>
 	</header>
 
@@ -406,7 +427,8 @@
 				<h2>Microblading</h2>
 				<p>Getting perfectly symmetrical and well-defined eyebrows every single day without an inch of effort
 					isn’t done with magic. It’s done with microblading.
-				<p><a href="javascript:void(0);" onclick="openWhatsApp()" target="_blank" class="button black">Tell Me More</a></p>
+				<p><a href="javascript:void(0);" onclick="openWhatsApp()" target="_blank" class="button black">Tell Me
+						More</a></p>
 				<img src="photos/M2.png" class="bgimg simg">
 			</div>
 
