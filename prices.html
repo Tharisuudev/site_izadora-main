@@ -3,11 +3,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="styles.css">
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="icon" 
       type="image/png" 
-      href="icon.png">
+      href="photos/icon.png">
 
 
 <style>
@@ -123,42 +127,39 @@ a:link,a:visited,a:hover,a:active {
 
 
 
-<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
-<nav class="quicksand top sidebar white animate-left xlarge" style="display:none;padding-top:45px;right:0;z-index:2" id="mySidebar">
+	<!-- Sidebar -->
+	<nav class="quicksand top sidebar white animate-left xlarge" style="display:none;padding-top:45px;left:0;z-index:2"
+		id="mySidebar">
 
-  <a href="javascript:void(0)" onclick="closeNav()" class="button text-grey xlarge display-topleft hover-white" style="padding:0 12px;">Close</a>
-	<div class="bar-block center">
-		<a href="/" class="bar-item button text-grey hover-white" 				onclick="closeNav()">Home</a>
-		<a href="book" class="bar-item button text-grey hover-white" 				onclick="closeNav()">Book</a>
-		<a href="gallery" class="bar-item button text-grey hover-white" 			onclick="closeNav()">Pictures</a>
-		<a href="safety" class="bar-item button text-grey hover-white" 				onclick="closeNav()">Safety</a>
-		<a href="contact" class="bar-item button text-grey hover-white" 			onclick="closeNav()">Contact</a>
-		<a href="chinese" class="bar-item button text-grey hover-white" 			onclick="closeNav()">中文</a>
-
-<!--      <h3 class="center button white text-grey hover-white hover-text-black quicksand">Services <i class="fa fa-angle-down"></i></h3>-->
-      <div class="center bar-block card-2 text-grey white large">
-        <a href="microblading" class="bar-item button hover-white hover-text-black">Microblading</a>
-        <a href="ombre-brows" class="bar-item button hover-white hover-text-black">Ombre Brows</a>
-        <a href="combo-brows" class="bar-item button hover-white hover-text-black">Combo Brows</a>
-        <a href="eyeliner" class="bar-item button hover-white hover-text-black">Eyeliner</a>
-        <span class="bar-item button hover-white hover-text-black">Lip Liner</span>
-        <a href="prices" class="bar-item button hover-white hover-text-black">Prices</a>
-      </div>
-   </div>
-</nav>
+		<a href="javascript:void(0)" onclick="closeNav()" class="button text-grey large display-topleft hover-white"
+			style="padding:0 12px;">Close</a>
+		<div class="bar-block center">
+			<a href="/" class="bar-item button text-grey hover-white" onclick="closeNav()">Home</a>
+			<a href="gallery.html" class="bar-item button text-grey hover-white" onclick="closeNav()">Pictures</a>
+			<a href="safety.html" class="bar-item button text-grey hover-white" onclick="closeNav()">Safety</a>
 
 
+			<!--      <h3 class="center button white text-grey hover-white hover-text-black quicksand">Services <i class="fa fa-angle-down"></i></h3>-->
+			<div class="center bar-block card-2 text-grey white large">
+				<a href="microblading.html" class="bar-item button hover-white hover-text-black">Microblading</a>
+				<a href="ombre-brows.html" class="bar-item button hover-white hover-text-black">Ombre Brows</a>
+				<a href="combo-brows.html" class="bar-item button hover-white hover-text-black">Combo Brows</a>
+				<a href="eyeliner.html" class="bar-item button hover-white hover-text-black">Eyeliner</a>
+				<a href="prices.html" class="bar-item button hover-white hover-text-black">Prices</a>
+			</div>
+		</div>
+	</nav>
 
-<div class="top topnav quicksand">
-	<span class="button text-white hover-text-white large hover-none" onclick="openNav()">Menu</span>
 
-	<a href="/"><img src="icon2.png" style="height:45px"></a>
 
-	<span class="button text-white hover-text-white large hover-none right" style="width:auto;left:0;"><a href="https://www.google.com/maps/place/Microblading+Eyebrow+Design+Studio/data=!3m1!4b1!4m2!3m1!1s0x89c2600f9581923b:0xe1fb8b1a087e1e92" target="_blank" itemprop="hasMap">Directions</a></span>
+	<div class="top topnav quicksand">
+		<span class="button text-white hover-text-white large hover-none" onclick="openNav()">Menu</span>
+		<a href="/"><img src="photos/icon.png" style="height:45px"></a>
 
-	<span class="button text-white hover-text-white large hover-none right" style="width:auto;left:0;"><a href="tel:347-768-6999">Call</a></span>
-</div>
 
+		<span class="button text-white hover-text-white large hover-none right" style="width:auto;left:0;"><a
+			href="javascript:void(0);" onclick="openWhatsApp()" target="_blank">Call</a></span>
+	</div>
 
 
 
@@ -240,46 +241,57 @@ a:link,a:visited,a:hover,a:active {
 
 
 <!-- Footer -->
-<center><a href="#" class="button black margin center">To the top</a></center>
+<div class="bck2">
+	<center><a href="#" class="button black margin center">To the top</a></center>
+</div>
+
+
+
 <footer class="container padding-32 header text-white">
-
-<div class="padding-small content">
-	<div class="padding third">
-		<span class="xlarge bottombar border-light-grey padding-16 montserrat">Contact</span>
-		<br><br>
-			<p><i class="fa fa-map-marker" style="width:30px"></i> 3640 Main 			St, Suite 208, Flushing, NY 11354<br>
-			<i class="fa fa-phone" style="width:30px"></i>Phone: <a href="tel:			347-768-6999">347-768-6999</a><br>
-			<i class="fa fa-envelope" style="width:30px"> </i> Email: <a 				href="mailto:dreamlife668@gmail.com">Dreamlife668@gmail.com</a></			p>
-	</div>
+	<div class="padding-small content">
 
 
-	<div class="padding third">
-		<span class="xlarge bottombar border-light-grey padding-16 montserrat">Business Hours</span>
-	<br><br>
-		<p>Mon: 9:00 AM - 6:00 PM
-		<br>Tue: 9:00 AM - 6:00 PM
-		<br>Wed: 9:00 AM - 6:00 PM
-		<br>Thu: 9:00 AM - 6:00 PM
-		<br>Fri: 9:00 AM - 6:00 PM
-		<br>Sat: 9:00 AM - 6:00 PM
-		<br>Sun: Closed
-		</p>
-	</div>
+		<div class="padding third">
+			<span class="xlarge bottombar border-light-grey padding-16 montserrat">Contact</span>
+			<br><br>
+			<p class="quicksand"><i class="fa fa-map-marker" style="width:30px"></i>Soon to be determined<br>
+				<i class="fa fa-phone" style="width:30px"></i>Phone: <a href="tel:			347-768-6999">+1 (954)
+					937-3262</a><br>
+				<i class="fa fa-envelope" style="width:30px"> </i> Email: <a
+					href="mailto:dreamlife668@gmail.com">Izzyphiacademy@gmail.com</a></ p>
+		</div>
 
-	<div class="padding third">
-		<div class="container image round-large">
-			<div class="IQ1KEb"><a href="https://www.google.com/maps/place/Microblading+Eyebrow+Design+Studio/data=!3m1!4b1!4m2!3m1!1s0x89c2600f9581923b:0xe1fb8b1a087e1e92" target="_blank" itemprop="hasMap"><div class="QMbmRe" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?scale=1&amp;size=1600x900&amp;style=feature:poi.business|visibility:off&amp;style=feature:water|visibility:simplified&amp;style=feature:road|element:labels.icon|visibility:off&amp;style=feature:road.highway|element:labels|saturation:-90|lightness:25&amp;format=jpg&amp;language=en&amp;region=US&amp;markers=color:0x48487f|40.76199,-73.8317024&amp;zoom=16&amp;client=google-presto&amp;signature=cVNytUHwhUX34SPEGOmipH9g-AM')" title="Business Location.">
-			</div></a></div>
+
+		<div class="padding third">
+			<span class="xlarge bottombar border-light-grey padding-16 montserrat">Business Hours</span>
+			<br><br>
+			<p class="quicksand">Mon: 10:00 AM - 6:00 PM
+				<br>Tue: 10:00 AM - 6:00 PM
+				<br>Wed: 10:00 AM - 6:00 PM
+				<br>Thu: 10:00 AM - 6:00 PM
+				<br>Fri: 10:00 AM - 6:00 PM
+				<br>Sat: 10:00 AM - 6:00 PM
+				<br>Sun: Closed
+			</p>
+		</div>
+
+
+
+
+		<div class="padding third">
+			<div class="container image round-large">
+				<!-- <div class="IQ1KEb"><a href="https://www.google.com/maps/place/Microblading+Eyebrow+Design+Studio/data=!3m1!4b1!4m2!3m1!1s0x89c2600f9581923b:0xe1fb8b1a087e1e92" target="_blank" itemprop="hasMap"><div class="QMbmRe" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?scale=1&amp;size=1600x900&amp;style=feature:poi.business|visibility:off&amp;style=feature:water|visibility:simplified&amp;style=feature:road|element:labels.icon|visibility:off&amp;style=feature:road.highway|element:labels|saturation:-90|lightness:25&amp;format=jpg&amp;language=en&amp;region=US&amp;markers=color:0x48487f|40.76199,-73.8317024&amp;zoom=16&amp;client=google-presto&amp;signature=cVNytUHwhUX34SPEGOmipH9g-AM')" title="Business Location."> -->
+			</div></a>
 		</div>
 	</div>
-
-
-	<div class="center">
-		<p>© 2020 Eyebrow Design Studio All rights reserved
-		<br>Designed by <u><a href="mailto:ali@representative.com">Ali@representative.com</a></u></p>
 	</div>
-</div>
+
+	<p class="quicksand">© 2023 Izadora Walverde Eyebrows Designer All rights reserved
+		<br>Designed by <u><a href="mailto:ali@representative.com">Izzyphiacademy@gmail.com</a></u>
+	</p>
+	</div>
 </footer>
+
 
 
 <script>
