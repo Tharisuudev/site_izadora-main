@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.slide {
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+.one {
+  background: url("page/page-01.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+.two {
+  background: url("page/page-02.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+.three {
+  background: url("page/page-03.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+.four {
+  background: url("page/page-04.jpg");
+  background-size: auto 100vh;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+.five {
+  background: url("page/page-05.jpg");
+  background-size: auto 100vh;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+.six {
+  background: url("page/page-06.jpg");
+  background-size: auto 100vh;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+
+
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display:none;
+}
